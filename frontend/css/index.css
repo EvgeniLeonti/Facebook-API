@@ -1,0 +1,84 @@
+body{
+    font-family: 'Assistant', sans-serif;
+}
+
+.rtl {
+    direction: rtl;
+    text-align: right;
+}
+
+.ltr {
+    direction: ltr;
+    text-align: left;
+}
+
+.post-container {
+    cursor: default;
+}
+
+.post-heading {
+    /*Disable text selection*/
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.post-body {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.sidebar {
+    z-index: 1;
+}
+
+/************** Loading window **************/
+#progressbar {
+    margin-top: 20px;
+}
+
+.progress-label {
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+}
+
+.ui-dialog-titlebar-close {
+    display: none;
+}
+
+a {
+    cursor: pointer;
+}
+#buttons {
+    margin-bottom: 35px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    /*background: #f1f1f1;*/
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #d9edf7;
+    border: 1px solid #bce8f1;
+    border-radius: 2px;
+
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #bce8f1;
+
+}
